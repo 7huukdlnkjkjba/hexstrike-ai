@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 HexStrike AI 0day漏洞利用模块
-专为高级漏洞检测、分析和武器化设计
+专为高级漏洞检测、分析和武器化设计，无需某hexstrike_mcp.py
 """
 
 import sys
@@ -1509,4 +1509,5 @@ def main():
         parser.print_help()
 
 if __name__ == '__main__':
+
     main()
